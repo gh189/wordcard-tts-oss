@@ -1,0 +1,48 @@
+.idea
+local.properties
+.DS_Store
+*.iml
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+app/build/
+/remote-dev.sh
+keystore.properties
+*.aab
+
+# Signing keystores and private keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+signing.properties
+
+# Local environment secrets (keep sanitized examples shareable)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Account credentials and service account keys
+.aws/
+.ssh/
+credentials.json
+secrets.properties
+service-account*.json
+service_account*.json
+*-firebase-adminsdk-*.json
+
+# Build artifacts and diagnostics may contain private data
+*.apk
+*.log
+*.hprof
+*.heapdump
